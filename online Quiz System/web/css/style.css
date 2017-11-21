@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 13, 2017, 12:12:13 AM
+    Author     : Rishabh Sachan
+*/
+
+
+
+*{margin: 0; padding:0;box-sizing: border-box; 
+border: none; outline:none;}
+.wrapper{
+	width:1280px;
+	margin:0 auto;
+}
+
+.nav{
+		
+		width: 1280px;
+		height:76px;
+		background : #e5e9ea;
+		
+}
+
+.nav .logo{
+	float: left;
+	width:300px;
+	text-align:center;
+	color:#293a4a;
+	font-family:sans-serif;
+	font-size:40px;
+	line-height:1.8em;
+}
+
+.nav .menu{float:left;}
+.nav .menu ul{list-style:none;}
+.nav .menu ul li{
+		display:inline-block;
+		margin:25px 0 0 15px;
+		font-family:sans-serif;
+		font-size:20px;
+}
+
+.nav .menu ul li a{
+	text-decoration:none;
+	color:#293a4a;
+}
+.nav .menu ul li a:hover{
+	text-decoration:underline;
+	color:pink;
+}
+
+
+.nav .menu ul li a.active{color: #1abc9c;}
+.nav .form{float:left;margin:22px 0 0 20px;}
+.nav .form input[type="email"],
+.nav .form input[type="password"]{
+		width:200px;
+		height:35px;
+		background:#34495e;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-redius:5px;
+		-o-border-radius:5px;
+		color:/*#536a81*/white;
+		font-family:sans-serif;
+		font-size:15px;
+		text-indent:12px;
+		margin-left:5px;
+}
+
+
+
+.nav .form input[type="email"]:focus,
+.nav .form input[type="password"]:focus{
+	border:2px solid #1acb9c;
+}
+
+.nav .form input[type="submit"]	{
+		width:65px;
+		height:35px;
+		background:#31a98c;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-redius:5px;
+		-o-border-radius:5px;
+		color:#fff;
+		font-family:sans-serif;
+		font-size:15px;
+		cursor:pointer;
+		transition: opacity .3s;   
+}
+
+.nav .form input[type="submit"]:hover,
+.bgheader .aboutme button:hover{
+	opacity:.9;
+}
+
+.bgheader{
+	
+	width:1280px;
+	height:700px;
+	background:#34495e;
+}
+
+.bgheader .aboutme{
+width:700px;
+height:100px;
+margin:0 auto;
+
+}
+
+.bgheader .aboutme h1{
+	font-family:sans-serif;
+	
+	font-size:60px;
+	color:#fff;
+	margin-top:60px;
+	display:inline-block;
+}
+
+.bgheader .aboutme p{
+	font-family:sans-serif;
+	font-size:20px;
+	color:#fff;
+	margin-top:20px;
+}
+
+.bgheader .aboutme p span{
+	font-family:sans-serif;
+	font-size:20px;
+	
+}
+
+.bgheader .aboutme bottom{
+	width:200px;
+	height:100px;
+	background:#31a98c;
+	color:#fff;
+	font:sans-serif;
+	
+	font-size:18px;
+	border-radius:0 15px 0 15px;
+		-moz-border-radius:0 15px 0 15px;
+		-webkit-border-redius:0 15px 0 15px;
+		-o-border-radius:0 15px 0 15px;
+		border-bottom:3px solid #178067;
+		margin-top:40px;
+		cursor:pointer;
+		transition:opacity .3s ;
+}
+
+
+footer{
+	clear:both;
+	background:orange;
+}
+span{
+	color:pink;
+	}
+/*aside{
+	float:left;
+}*/
+.aboutme b{
+	color:green;
+}
+.aboutme b:hover{
+	color:white;
+	text-decoration:underline;
+}
+
+
